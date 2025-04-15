@@ -30,16 +30,20 @@ A full-stack Airbnb clone built with Node.js, Express.js, MongoDB, and Tailwind 
    git clone https://github.com/Mantu576/Airbnb.git
    cd AirBnb
 2.**Install dependencies**
-  ``
+  ```
     npm install
-    ``
+  ```
 3. **Environment Setup Create a .env file in the root directory:**
-  ``
+
+  ```
   MONGODB_URI=your_mongodb_connection_string
   SESSION_SECRET=your_session_secret
-  PORT=3000``
+  PORT=3000
+  ```
 4.**Start the development server**
-  ``npm run dev``
+  ```
+  npm run dev
+  ```
 
 ## 📁 Project Structure
 
@@ -74,11 +78,21 @@ airbnb-clone/
 - User registration and login
 - Session management
 - Protected routes
+![Screenshot 2025-04-15 211617](https://github.com/user-attachments/assets/1b82ee17-6bea-4edf-83b7-60b3b30764cc)
+![Screenshot 2025-04-15 211542](https://github.com/user-attachments/assets/ec07b9c2-384a-482c-b395-5e886f3c254b)
+![Screenshot 2025-04-15 211737](https://github.com/user-attachments/assets/f91cb585-7daf-4093-a3b4-3102b9a3147d)
+
+
+
 
 ### 🏡 Property Management
 - Create, read, update, and delete properties
 - Image upload for properties
 - Property details and pricing
+![Screenshot 2025-04-15 212447](https://github.com/user-attachments/assets/75b457b7-7f3f-4ff2-8cfd-854dd51ff77b)
+![Screenshot 2025-04-15 212023](https://github.com/user-attachments/assets/d3b18665-f42e-4de5-9617-de963adb6d32)
+![Screenshot 2025-04-15 211907](https://github.com/user-attachments/assets/317ad52f-502a-44cd-9098-49aa2f307665)
+
 
 ### 📅 Booking System
 - Date selection for check-in and check-out
@@ -86,6 +100,7 @@ airbnb-clone/
 - Availability checking
 - Booking confirmation
 - Invoice generation
+![Screenshot 2025-04-15 212152](https://github.com/user-attachments/assets/452d7a47-89d3-42f5-a487-68f808eddfbd)
 
 ### 🎨 User Interface
 - Responsive design with Tailwind CSS
