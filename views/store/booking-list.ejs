@@ -1,0 +1,28 @@
+<%- include('../partials/head') %>
+</head>
+<body>
+  <%- include('../partials/nav') %>
+  <main class="container mx-auto bg-white shadow-lg rounded-lg p-8 mt-10 max-w-6xl">
+    <h2 class="text-3xl text-red-500 font-bold text-center mb-6">
+      Here are your bookings:
+    </h2>
+    <div class="flex flex-wrap justify-center gap-6">
+      <% bookingHomes.forEach(booking => { %>
+        <div class="bg-white rounded-lg shadow-md p-4 w-full max-w-sm">
+          <h3 class="text-xl font-semibold text-gray-800 mb-2"><%= booking.hotelId.houseName %></h3>
+          <p class="text-gray-600 mb-2"><i class="fas fa-map-marker-alt mr-2"></i><%= booking.hotelId.location %></p>
+          <p class="text-gray-600 mb-2">Check In: <%= new Date(booking.checkIn).toLocaleDateString() %></p>
+          <p class="text-gray-600 mb-2">Check Out: <%= new Date(booking.checkOut).toLocaleDateString() %></p>
+          <p class="text-gray-600 mb-2">Guests: <%= booking.guests %></p>
+          <p class="text-lg font-bold text-red-500">₹<%= booking.price %></p>
+          <% if (invoice) { %>
+            <a href="<%= invoice %>" target="_blank" class="block bg-blue-500 text-white text-center py-2 px-4 rounded mt-4 hover:bg-blue-600">
+              Download Invoice
+            </a>
+          <% } %>
+        </div>
+      <% }) %>
+    </div>
+  </main>
+</body>
+</html>

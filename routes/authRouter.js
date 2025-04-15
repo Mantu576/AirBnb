@@ -1,0 +1,12 @@
+const express=require("express");
+const authRouter=express.Router();
+const authController=require("../controllers/authController");
+authRouter.get("/register",authController.getRegister);
+authRouter.post("/register",authController.postRegister);
+authRouter.get("/login",authController.getLogin);
+authRouter.post("/login",authController.postLogin);
+authRouter.post("/logout",authController.postLogout);
+authRouter.get('/forgot-password', authController.getForgotPassword);
+authRouter.post('/forgot-password', authController.postForgotPassword);
+authRouter.post('/reset-password', authController.postResetPassword);
+module.exports=authRouter;
