@@ -90,8 +90,12 @@ airbnb-clone/
 - Image upload for properties
 - Property details and pricing
 ![Screenshot 2025-04-15 212447](https://github.com/user-attachments/assets/75b457b7-7f3f-4ff2-8cfd-854dd51ff77b)
+![Screenshot 2025-04-16 095119](https://github.com/user-attachments/assets/28bb9645-3c57-4770-9785-718a886237fe)
+![Screenshot 2025-04-15 211907](https://github.com/user-attachments/assets/6c790a85-7069-43b4-88ad-fbfa8e04f15d)
+
 ![Screenshot 2025-04-15 212023](https://github.com/user-attachments/assets/d3b18665-f42e-4de5-9617-de963adb6d32)
-![Screenshot 2025-04-15 211907](https://github.com/user-attachments/assets/317ad52f-502a-44cd-9098-49aa2f307665)
+
+
 
 
 ### 📅 Booking System
